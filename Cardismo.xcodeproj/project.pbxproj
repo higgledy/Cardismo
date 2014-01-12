@@ -112,8 +112,6 @@
 		3EA201401881E7EC0011935D /* Cardismo */ = {
 			isa = PBXGroup;
 			children = (
-				3EA201491881E7EC0011935D /* CardGameAppDelegate.h */,
-				3EA2014A1881E7EC0011935D /* CardGameAppDelegate.m */,
 				3EA2014C1881E7EC0011935D /* Main.storyboard */,
 				3EA2014F1881E7EC0011935D /* CardGameViewController.h */,
 				3EA201501881E7EC0011935D /* CardGameViewController.m */,
@@ -126,6 +124,8 @@
 		3EA201411881E7EC0011935D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EA201491881E7EC0011935D /* CardGameAppDelegate.h */,
+				3EA2014A1881E7EC0011935D /* CardGameAppDelegate.m */,
 				3EA201421881E7EC0011935D /* Cardismo-Info.plist */,
 				3EA201431881E7EC0011935D /* InfoPlist.strings */,
 				3EA201461881E7EC0011935D /* main.m */,
