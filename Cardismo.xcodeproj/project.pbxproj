@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8E952E18864886007A0CAB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E952D18864886007A0CAB /* Card.m */; };
 		3EA2013B1881E7EC0011935D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA2013A1881E7EC0011935D /* Foundation.framework */; };
 		3EA2013D1881E7EC0011935D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA2013C1881E7EC0011935D /* CoreGraphics.framework */; };
 		3EA2013F1881E7EC0011935D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA2013E1881E7EC0011935D /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8E952C18864886007A0CAB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Cardismo/Model/Card.h; sourceTree = "<group>"; };
+		3E8E952D18864886007A0CAB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Cardismo/Model/Card.m; sourceTree = "<group>"; };
 		3EA201371881E7EC0011935D /* Cardismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA2013A1881E7EC0011935D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3EA2013C1881E7EC0011935D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E8E952F188648B6007A0CAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E952C18864886007A0CAB /* Card.h */,
+				3E8E952D18864886007A0CAB /* Card.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		3EA2012E1881E7EC0011935D = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 				3EA2014C1881E7EC0011935D /* Main.storyboard */,
 				3EA2014F1881E7EC0011935D /* CardGameViewController.h */,
 				3EA201501881E7EC0011935D /* CardGameViewController.m */,
+				3E8E952F188648B6007A0CAB /* Model */,
 				3EA201521881E7EC0011935D /* Images.xcassets */,
 				3EA201411881E7EC0011935D /* Supporting Files */,
 			);
@@ -253,6 +267,7 @@
 				3EA2014B1881E7EC0011935D /* CardGameAppDelegate.m in Sources */,
 				3EA201511881E7EC0011935D /* CardGameViewController.m in Sources */,
 				3EA201471881E7EC0011935D /* main.m in Sources */,
+				3E8E952E18864886007A0CAB /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +476,7 @@
 				3EA2016B1881E7EC0011935D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA2016C1881E7EC0011935D /* Build configuration list for PBXNativeTarget "CardismoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +485,7 @@
 				3EA2016E1881E7EC0011935D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
