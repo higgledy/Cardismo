@@ -1,10 +1,11 @@
 //
-//  Card.m
-//  Matchismo7
+//  Deck.m
+//  Cardismo
 //
-//  Created by Kyle Adams on 21-12-13.
-//  Copyright (c) 2013 Kyle Adams. All rights reserved.
+//  Created by Philip Palmer on 1/17/14.
+//  Copyright (c) 2014 Philip Palmer. All rights reserved.
 //
+
 
 #import "Card.h"
 

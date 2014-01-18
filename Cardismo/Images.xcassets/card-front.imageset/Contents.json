@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "club-1.png"
+      "filename" : "card-front.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "club-1@2x.png"
+      "filename" : "card-front@2x.png"
     }
   ],
   "info" : {
